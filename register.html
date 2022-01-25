@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+    	<meta name="description" content="Sign up and login">
+    	<meta name="keywords" content="HTML, CSS, JavaScript">
+    	<meta name="author" content="Joyce Jiang, student at Barnard College">
+
+    	<title>Register | Joyce Jiang</title>
+
+    	<link rel="stylesheet" type="text/css" href="./css/style.css">
+    	<link rel="stylesheet" type="text/css" href="./css/register.css">
+
+
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    	<!-- fonts -->
+    	<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300&display=swap" rel="stylesheet">
+
+	</head>
+	<body>
+
+		<div id="background"></div>
+		<div id="content">
+			
+			<h1> Welcome!</h1>
+
+			<p>
+			<h3> Please register your account below.</h3></p>
+
+			<div id="signup">
+
+			    <form action="signup.php" method="post">
+			     
+			     <label for="firstname">First name:</label>
+			     <input type="text" name="signup-firstname" id="input">
+			     <br>
+
+			     <label for="lastname">Last name:</label>
+			     <input type="text" name="signup-lastname" id="signup-lastname">
+			     <br>
+
+			     <label for="email">Email:&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			     <input type="text" name="signup-email" id="signup-email">
+			     <br>
+			     <label for="password">Password:</label>
+			     <input type="password" name="signup-password" id="signup-password">
+			     <br>
+			     <label for="password">Reconfirm Password:</label>
+			     <input type="password" name="signup-repassword" id="signup-repassword">
+			     <br><br>
+			     
+			     <!-- <input type="submit" name="submit" id="register" value="register"> -->
+
+			    <button class="cssbuttons-io-button" input type="submit"> Register
+					<div class="icon">
+						<svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"></path><path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" fill="currentColor"></path></svg>
+					</div>
+				</button>
+
+
+			   </form>
+
+			 </div>
+
+
+
+
+		</div>
+	</body>
+
+</html>
